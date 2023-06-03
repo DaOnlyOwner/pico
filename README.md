@@ -1,3 +1,7 @@
+## NOTE ##
+The v2 branch is a modified version that can be used within a shadow DOM, useful if you have custom elements that should be styled. 
+In order to work, you have to set the id of the outmost container (not the custom element itself) to "root"
+
 <p align="center">
   <a href="https://picocss.com/">
     <img src=".github/logo.svg" width="64" height="64">
