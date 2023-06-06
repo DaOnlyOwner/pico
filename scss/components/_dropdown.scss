@@ -19,16 +19,16 @@
     > a {
       &::after {
         display: block;
-        width: 1rem;
-        height: calc(1rem * var(#{$✨}line-height, 1.5));
-        margin-inline-start: 0.25rem;
+        width: 1em;
+        height: calc(1em * var(#{$✨}line-height, 1.5));
+        margin-inline-start: 0.25em;
         float: right;
         // TODO: find out why we need this magic number (0.2 rem)
         // for the marker to be aligned with the regular select
-        transform: rotate(0deg) translateX(0.2rem);
+        transform: rotate(0deg) translateX(0.2em);
         background-image: var(#{$✨}icon-chevron);
         background-position: right center;
-        background-size: 1rem auto;
+        background-size: 1em auto;
         background-repeat: no-repeat;
         content: "";
       }
@@ -48,7 +48,7 @@
   // ––––––––––––––––––––
   details.dropdown summary:not([role]) {
     height: calc(
-      1rem *
+      1em *
         var(#{$✨}line-height) +
         var(#{$✨}form-element-spacing-vertical) *
         2 +
