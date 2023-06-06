@@ -109,7 +109,7 @@
     > *:not(:first-child):last-child {
       #{$✨}color: var(#{$✨}muted-color);
       #{$✨}font-weight: unset;
-      font-size: 1rem;
+      font-size: 1em;
       font-family: unset;
     }
   }
@@ -134,7 +134,7 @@
 
   // Highlighted text
   mark {
-    padding: 0.125rem 0.25rem;
+    padding: 0.125em 0.25em;
     background-color: var(#{$✨}mark-background-color);
     color: var(#{$✨}mark-color);
     vertical-align: baseline;
@@ -146,8 +146,8 @@
     margin: var(#{$✨}typography-spacing-vertical) 0;
     padding: var(#{$✨}spacing);
     border-right: none;
-    border-left: 0.25rem solid var(#{$✨}blockquote-border-color);
-    border-inline-start: 0.25rem solid var(#{$✨}blockquote-border-color);
+    border-left: 0.25em solid var(#{$✨}blockquote-border-color);
+    border-inline-start: 0.25em solid var(#{$✨}blockquote-border-color);
     border-inline-end: none;
 
     footer {

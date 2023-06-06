@@ -14,25 +14,25 @@
   --pico-line-height: 1.5;
   --pico-font-weight: 400;
   --pico-font-size: 100%;
-  --pico-text-underline-offset: 0.1rem;
-  --pico-border-radius: 0.25rem;
-  --pico-border-width: 0.0625rem;
-  --pico-outline-width: 0.1875rem;
+  --pico-text-underline-offset: 0.1em;
+  --pico-border-radius: 0.25em;
+  --pico-border-width: 0.0625em;
+  --pico-outline-width: 0.1875em;
   --pico-transition: 0.2s ease-in-out;
-  --pico-spacing: 1rem;
-  --pico-typography-spacing-vertical: 1rem;
+  --pico-spacing: 1em;
+  --pico-typography-spacing-vertical: 1em;
   --pico-block-spacing-vertical: calc(var(--pico-spacing) * 2);
   --pico-block-spacing-horizontal: var(--pico-spacing);
-  --pico-form-element-spacing-vertical: 0.75rem;
-  --pico-form-element-spacing-horizontal: 1rem;
+  --pico-form-element-spacing-vertical: 0.75em;
+  --pico-form-element-spacing-horizontal: 1em;
   --pico-group-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   --pico-group-box-shadow-focus-with-button: 0 0 0 var(--pico-outline-width) var(--pico-primary-focus);
-  --pico-group-box-shadow-focus-with-input: 0 0 0 0.0625rem var(--pico-form-element-border-color);
-  --pico-modal-overlay-backdrop-filter: blur(0.375rem);
-  --pico-nav-element-spacing-vertical: 1rem;
-  --pico-nav-element-spacing-horizontal: 0.5rem;
-  --pico-nav-link-spacing-vertical: 0.5rem;
-  --pico-nav-link-spacing-horizontal: 0.5rem;
+  --pico-group-box-shadow-focus-with-input: 0 0 0 0.0625em var(--pico-form-element-border-color);
+  --pico-modal-overlay-backdrop-filter: blur(0.375em);
+  --pico-nav-element-spacing-vertical: 1em;
+  --pico-nav-element-spacing-horizontal: 0.5em;
+  --pico-nav-link-spacing-vertical: 0.5em;
+  --pico-nav-link-spacing-horizontal: 0.5em;
   --pico-nav-breadcrumb-divider: ">";
   --pico-icon-checkbox: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
   --pico-icon-minus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(255, 255, 255)' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3C/svg%3E");
@@ -180,38 +180,38 @@ h6 {
 }
 
 h1 {
-  --pico-font-size: 2rem;
+  --pico-font-size: 2em;
   --pico-line-height: 1.25;
-  --pico-typography-spacing-top: 3rem;
+  --pico-typography-spacing-top: 3em;
 }
 
 h2 {
-  --pico-font-size: 1.75rem;
+  --pico-font-size: 1.75em;
   --pico-line-height: 1.3;
-  --pico-typography-spacing-top: 2.625rem;
+  --pico-typography-spacing-top: 2.625em;
 }
 
 h3 {
-  --pico-font-size: 1.5rem;
+  --pico-font-size: 1.5em;
   --pico-line-height: 1.35;
-  --pico-typography-spacing-top: 2.25rem;
+  --pico-typography-spacing-top: 2.25em;
 }
 
 h4 {
-  --pico-font-size: 1.25rem;
+  --pico-font-size: 1.25em;
   --pico-line-height: 1.4;
-  --pico-typography-spacing-top: 1.874rem;
+  --pico-typography-spacing-top: 1.874em;
 }
 
 h5 {
-  --pico-font-size: 1.125rem;
+  --pico-font-size: 1.125em;
   --pico-line-height: 1.45;
-  --pico-typography-spacing-top: 1.6875rem;
+  --pico-typography-spacing-top: 1.6875em;
 }
 
 h6 {
-  --pico-font-size: 1rem;
-  --pico-typography-spacing-top: 1.5rem;
+  --pico-font-size: 1em;
+  --pico-typography-spacing-top: 1.5em;
 }
 
 thead th,
@@ -219,7 +219,7 @@ thead td,
 tfoot th,
 tfoot td {
   --pico-font-weight: 600;
-  --pico-border-width: 0.1875rem;
+  --pico-border-width: 0.1875em;
 }
 
 pre,
@@ -240,24 +240,24 @@ input:not([type=submit],
 [type=radio],
 [type=file]),
 :where(select, textarea) {
-  --pico-outline-width: 0.0625rem;
+  --pico-outline-width: 0.0625em;
 }
 
 [type=search] {
-  --pico-border-radius: 5rem;
+  --pico-border-radius: 5em;
 }
 
 [type=checkbox],
 [type=radio] {
-  --pico-border-width: 0.125rem;
+  --pico-border-width: 0.125em;
 }
 
 [type=checkbox][role=switch] {
-  --pico-border-width: 0.1875rem;
+  --pico-border-width: 0.1875em;
 }
 
 [role=search] {
-  --pico-border-radius: 5rem;
+  --pico-border-radius: 5em;
 }
 
 [role=search] button,
@@ -268,7 +268,7 @@ input:not([type=submit],
 [role=group] [type=submit],
 [role=group] [type=button],
 [role=group] [role=button] {
-  --pico-form-element-spacing-horizontal: 2rem;
+  --pico-form-element-spacing-horizontal: 2em;
 }
 
 /**
@@ -311,7 +311,7 @@ input:not([type=submit],
   --pico-contrast-hover-underline: var(--pico-secondary-hover);
   --pico-contrast-focus: rgba(93, 107, 137, 0.25);
   --pico-contrast-inverse: #fff;
-  --pico-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(104, 120, 153, 0.01698), 0.0335rem 0.067rem 0.402rem rgba(104, 120, 153, 0.024), 0.0625rem 0.125rem 0.75rem rgba(104, 120, 153, 0.03), 0.1125rem 0.225rem 1.35rem rgba(104, 120, 153, 0.036), 0.2085rem 0.417rem 2.502rem rgba(104, 120, 153, 0.04302), 0.5rem 1rem 6rem rgba(104, 120, 153, 0.06), 0 0 0 0.0625rem rgba(104, 120, 153, 0.015);
+  --pico-box-shadow: 0.0145em 0.029em 0.174em rgba(104, 120, 153, 0.01698), 0.0335em 0.067em 0.402em rgba(104, 120, 153, 0.024), 0.0625em 0.125em 0.75em rgba(104, 120, 153, 0.03), 0.1125em 0.225em 1.35em rgba(104, 120, 153, 0.036), 0.2085em 0.417em 2.502em rgba(104, 120, 153, 0.04302), 0.5em 1em 6em rgba(104, 120, 153, 0.06), 0 0 0 0.0625em rgba(104, 120, 153, 0.015);
   --pico-h1-color: #2d3138;
   --pico-h2-color: #373c44;
   --pico-h3-color: #424751;
@@ -427,7 +427,7 @@ input:not([type=submit],
     --pico-contrast-hover-underline: var(--pico-contrast-hover);
     --pico-contrast-focus: rgba(207, 213, 226, 0.25);
     --pico-contrast-inverse: #000;
-    --pico-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(0, 0, 0, 0.01698), 0.0335rem 0.067rem 0.402rem rgba(0, 0, 0, 0.024), 0.0625rem 0.125rem 0.75rem rgba(0, 0, 0, 0.03), 0.1125rem 0.225rem 1.35rem rgba(0, 0, 0, 0.036), 0.2085rem 0.417rem 2.502rem rgba(0, 0, 0, 0.04302), 0.5rem 1rem 6rem rgba(0, 0, 0, 0.06), 0 0 0 0.0625rem rgba(0, 0, 0, 0.015);
+    --pico-box-shadow: 0.0145em 0.029em 0.174em rgba(0, 0, 0, 0.01698), 0.0335em 0.067em 0.402em rgba(0, 0, 0, 0.024), 0.0625em 0.125em 0.75em rgba(0, 0, 0, 0.03), 0.1125em 0.225em 1.35em rgba(0, 0, 0, 0.036), 0.2085em 0.417em 2.502em rgba(0, 0, 0, 0.04302), 0.5em 1em 6em rgba(0, 0, 0, 0.06), 0 0 0 0.0625em rgba(0, 0, 0, 0.015);
     --pico-h1-color: #f0f1f3;
     --pico-h2-color: #e0e3e7;
     --pico-h3-color: #c2c7d0;
@@ -536,7 +536,7 @@ input:not([type=submit],
   --pico-contrast-hover-underline: var(--pico-contrast-hover);
   --pico-contrast-focus: rgba(207, 213, 226, 0.25);
   --pico-contrast-inverse: #000;
-  --pico-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(0, 0, 0, 0.01698), 0.0335rem 0.067rem 0.402rem rgba(0, 0, 0, 0.024), 0.0625rem 0.125rem 0.75rem rgba(0, 0, 0, 0.03), 0.1125rem 0.225rem 1.35rem rgba(0, 0, 0, 0.036), 0.2085rem 0.417rem 2.502rem rgba(0, 0, 0, 0.04302), 0.5rem 1rem 6rem rgba(0, 0, 0, 0.06), 0 0 0 0.0625rem rgba(0, 0, 0, 0.015);
+  --pico-box-shadow: 0.0145em 0.029em 0.174em rgba(0, 0, 0, 0.01698), 0.0335em 0.067em 0.402em rgba(0, 0, 0, 0.024), 0.0625em 0.125em 0.75em rgba(0, 0, 0, 0.03), 0.1125em 0.225em 1.35em rgba(0, 0, 0, 0.036), 0.2085em 0.417em 2.502em rgba(0, 0, 0, 0.04302), 0.5em 1em 6em rgba(0, 0, 0, 0.06), 0 0 0 0.0625em rgba(0, 0, 0, 0.015);
   --pico-h1-color: #f0f1f3;
   --pico-h2-color: #e0e3e7;
   --pico-h3-color: #c2c7d0;
@@ -825,7 +825,7 @@ hgroup > * {
 hgroup > *:not(:first-child):last-child {
   --pico-color: var(--pico-muted-color);
   --pico-font-weight: unset;
-  font-size: 1rem;
+  font-size: 1em;
   font-family: unset;
 }
 
@@ -843,7 +843,7 @@ ul li {
 }
 
 mark {
-  padding: 0.125rem 0.25rem;
+  padding: 0.125em 0.25em;
   background-color: var(--pico-mark-background-color);
   color: var(--pico-mark-color);
   vertical-align: baseline;
@@ -854,9 +854,9 @@ blockquote {
   margin: var(--pico-typography-spacing-vertical) 0;
   padding: var(--pico-spacing);
   border-right: none;
-  border-left: 0.25rem solid var(--pico-blockquote-border-color);
-  -webkit-border-start: 0.25rem solid var(--pico-blockquote-border-color);
-  border-inline-start: 0.25rem solid var(--pico-blockquote-border-color);
+  border-left: 0.25em solid var(--pico-blockquote-border-color);
+  -webkit-border-start: 0.25em solid var(--pico-blockquote-border-color);
+  border-inline-start: 0.25em solid var(--pico-blockquote-border-color);
   -webkit-border-end: none;
   border-inline-end: none;
 }
@@ -958,7 +958,7 @@ button,
   box-shadow: var(--pico-box-shadow);
   color: var(--pico-color);
   font-weight: var(--pico-font-weight);
-  font-size: 1rem;
+  font-size: 1em;
   line-height: var(--pico-line-height);
   text-align: center;
   text-decoration: none;
@@ -1083,7 +1083,7 @@ kbd {
 code,
 kbd {
   display: inline-block;
-  padding: 0.375rem;
+  padding: 0.375em;
 }
 
 pre {
@@ -1132,7 +1132,7 @@ optgroup,
 select,
 textarea {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: var(--pico-line-height);
   font-family: inherit;
   letter-spacing: inherit;
@@ -1205,7 +1205,7 @@ textarea {
 }
 
 input:not([type=checkbox], [type=radio], [type=range]) {
-  height: calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);
+  height: calc(1em * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);
 }
 
 fieldset {
@@ -1306,14 +1306,14 @@ label[aria-disabled=true] input[disabled] {
 [type=time],
 [type=week],
 [type=range])[aria-invalid] {
-  padding-right: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem) !important;
+  padding-right: calc(var(--pico-form-element-spacing-horizontal) + 1.5em) !important;
   padding-left: var(--pico-form-element-spacing-horizontal);
   -webkit-padding-start: var(--pico-form-element-spacing-horizontal) !important;
   padding-inline-start: var(--pico-form-element-spacing-horizontal) !important;
-  -webkit-padding-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem) !important;
-  padding-inline-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem) !important;
-  background-position: center right 0.75rem;
-  background-size: 1rem auto;
+  -webkit-padding-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5em) !important;
+  padding-inline-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5em) !important;
+  background-position: center right 0.75em;
+  background-size: 1em auto;
   background-repeat: no-repeat;
 }
 :where(input, select, textarea):not([type=checkbox],
@@ -1356,7 +1356,7 @@ label[aria-disabled=true] input[disabled] {
 }
 
 [dir=rtl] :where(input, select, textarea):not([type=checkbox], [type=radio]):is([aria-invalid], [aria-invalid=true], [aria-invalid=false]) {
-  background-position: center left 0.75rem;
+  background-position: center left 0.75em;
 }
 
 input::placeholder,
@@ -1379,15 +1379,15 @@ select::-ms-expand {
   background-color: transparent;
 }
 select:not([multiple], [size]) {
-  padding-right: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);
+  padding-right: calc(var(--pico-form-element-spacing-horizontal) + 1.5em);
   padding-left: var(--pico-form-element-spacing-horizontal);
   -webkit-padding-start: var(--pico-form-element-spacing-horizontal);
   padding-inline-start: var(--pico-form-element-spacing-horizontal);
-  -webkit-padding-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);
-  padding-inline-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5rem);
+  -webkit-padding-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5em);
+  padding-inline-end: calc(var(--pico-form-element-spacing-horizontal) + 1.5em);
   background-image: var(--pico-icon-chevron);
-  background-position: center right 0.75rem;
-  background-size: 1rem auto;
+  background-position: center right 0.75em;
+  background-size: 1em auto;
   background-repeat: no-repeat;
 }
 select[multiple] option:checked {
@@ -1395,7 +1395,7 @@ select[multiple] option:checked {
 }
 
 [dir=rtl] select:not([multiple], [size]) {
-  background-position: center left 0.75rem;
+  background-position: center left 0.75em;
 }
 
 textarea {
@@ -1403,9 +1403,9 @@ textarea {
   resize: vertical;
 }
 textarea[aria-invalid] {
-  --pico-icon-height: calc(1rem * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);
-  background-position: top right 0.75rem !important;
-  background-size: 1rem var(--pico-icon-height) !important;
+  --pico-icon-height: calc(1em * var(--pico-line-height) + var(--pico-form-element-spacing-vertical) * 2 + var(--pico-border-width) * 2);
+  background-position: top right 0.75em !important;
+  background-size: 1em var(--pico-icon-height) !important;
 }
 
 :where(input, select, textarea) + small {
@@ -1587,8 +1587,8 @@ label:has([type=checkbox], [type=radio]) {
  * Input type datetime
  */
 input:not([type=checkbox], [type=radio], [type=range], [type=file]):is([type=date], [type=datetime-local], [type=month], [type=time], [type=week]) {
-  --pico-icon-position: 0.75rem;
-  --pico-icon-width: 1rem;
+  --pico-icon-position: 0.75em;
+  --pico-icon-width: 1em;
   padding-right: calc(var(--pico-icon-width) + var(--pico-icon-position));
   background-image: var(--pico-icon-date);
   background-position: center right var(--pico-icon-position);
@@ -1656,12 +1656,12 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
   -moz-appearance: none;
   appearance: none;
   width: 100%;
-  height: 1.25rem;
+  height: 1.25em;
   background: none;
 }
 [type=range]::-webkit-slider-runnable-track {
   width: 100%;
-  height: 0.375rem;
+  height: 0.375em;
   border-radius: var(--pico-border-radius);
   background-color: var(--pico-range-border-color);
   -webkit-transition: background-color var(--pico-transition), box-shadow var(--pico-transition);
@@ -1669,7 +1669,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]::-moz-range-track {
   width: 100%;
-  height: 0.375rem;
+  height: 0.375em;
   border-radius: var(--pico-border-radius);
   background-color: var(--pico-range-border-color);
   -moz-transition: background-color var(--pico-transition), box-shadow var(--pico-transition);
@@ -1677,7 +1677,7 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]::-ms-track {
   width: 100%;
-  height: 0.375rem;
+  height: 0.375em;
   border-radius: var(--pico-border-radius);
   background-color: var(--pico-range-border-color);
   -ms-transition: background-color var(--pico-transition), box-shadow var(--pico-transition);
@@ -1685,9 +1685,9 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: -0.4375rem;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: -0.4375em;
   border: 2px solid var(--pico-range-thumb-border-color);
   border-radius: 50%;
   background-color: var(--pico-range-thumb-color);
@@ -1697,9 +1697,9 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]::-moz-range-thumb {
   -webkit-appearance: none;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: -0.4375rem;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: -0.4375em;
   border: 2px solid var(--pico-range-thumb-border-color);
   border-radius: 50%;
   background-color: var(--pico-range-thumb-color);
@@ -1709,9 +1709,9 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
 }
 [type=range]::-ms-thumb {
   -webkit-appearance: none;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-top: -0.4375rem;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: -0.4375em;
   border: 2px solid var(--pico-range-thumb-border-color);
   border-radius: 50%;
   background-color: var(--pico-range-thumb-color);
@@ -1737,17 +1737,17 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=time] {
  * Input type search
  */
 input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
-  -webkit-padding-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75rem);
-  padding-inline-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75rem);
+  -webkit-padding-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75em);
+  padding-inline-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75em);
   background-image: var(--pico-icon-search);
-  background-position: center left 1.125rem;
-  background-size: 1rem auto;
+  background-position: center left 1.125em;
+  background-size: 1em auto;
   background-repeat: no-repeat;
 }
 input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search][aria-invalid] {
-  -webkit-padding-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75rem) !important;
-  padding-inline-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75rem) !important;
-  background-position: center left 1.125rem, center right 0.75rem;
+  -webkit-padding-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75em) !important;
+  padding-inline-start: calc(var(--pico-form-element-spacing-horizontal) + 1.75em) !important;
+  background-position: center left 1.125em, center right 0.75em;
 }
 input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search][aria-invalid=false] {
   background-image: var(--pico-icon-search), var(--pico-icon-valid);
@@ -1757,10 +1757,10 @@ input:not([type=checkbox], [type=radio], [type=range], [type=file])[type=search]
 }
 
 [dir=rtl] :where(input):not([type=checkbox], [type=radio], [type=range], [type=file])[type=search] {
-  background-position: center right 1.125rem;
+  background-position: center right 1.125em;
 }
 [dir=rtl] :where(input):not([type=checkbox], [type=radio], [type=range], [type=file])[type=search][aria-invalid] {
-  background-position: center right 1.125rem, center left 0.75rem;
+  background-position: center right 1.125em, center left 0.75em;
 }
 
 /**
@@ -1771,7 +1771,7 @@ details {
   margin-bottom: var(--pico-spacing);
 }
 details summary {
-  line-height: 1rem;
+  line-height: 1em;
   list-style-type: none;
   cursor: pointer;
   transition: color var(--pico-transition);
@@ -1790,15 +1790,15 @@ details summary::-moz-list-bullet {
 }
 details summary::after {
   display: block;
-  width: 1rem;
-  height: 1rem;
-  -webkit-margin-start: calc(var(--pico-spacing, 1rem) * 0.5);
-  margin-inline-start: calc(var(--pico-spacing, 1rem) * 0.5);
+  width: 1em;
+  height: 1em;
+  -webkit-margin-start: calc(var(--pico-spacing, 1em) * 0.5);
+  margin-inline-start: calc(var(--pico-spacing, 1em) * 0.5);
   float: right;
   transform: rotate(-90deg);
   background-image: var(--pico-icon-chevron);
   background-position: right center;
-  background-size: 1rem auto;
+  background-size: 1em auto;
   background-repeat: no-repeat;
   content: "";
   transition: transform var(--pico-transition);
@@ -1811,7 +1811,7 @@ details summary:focus:not([role]) {
 }
 details summary:focus-visible:not([role]) {
   outline: var(--pico-outline-width) solid var(--pico-primary-focus);
-  outline-offset: calc(var(--pico-spacing, 1rem) * 0.5);
+  outline-offset: calc(var(--pico-spacing, 1em) * 0.5);
   color: var(--pico-primary);
 }
 details summary[role=button] {
@@ -1819,7 +1819,7 @@ details summary[role=button] {
   text-align: left;
 }
 details summary[role=button]::after {
-  height: calc(1rem * var(--pico-line-height, 1.5));
+  height: calc(1em * var(--pico-line-height, 1.5));
 }
 details[open] > summary {
   margin-bottom: var(--pico-spacing);
@@ -1879,12 +1879,12 @@ form[role=search], form[role=group] {
 }
 
 [role=search] > *:first-child {
-  border-top-left-radius: 5rem;
-  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5em;
+  border-bottom-left-radius: 5em;
 }
 [role=search] > *:last-child {
-  border-top-right-radius: 5rem;
-  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5em;
+  border-bottom-right-radius: 5em;
 }
 
 [role=search],
@@ -2002,7 +2002,7 @@ form[role=search], form[role=group] {
   width: 1em;
   height: 1em;
   background-image: var(--pico-icon-loading);
-  background-size: 1rem auto;
+  background-size: 1em auto;
   background-repeat: no-repeat;
   content: "";
   vertical-align: -0.125em;
@@ -2205,7 +2205,7 @@ progress {
   display: inline-block;
   appearance: none;
   width: 100%;
-  height: 0.5rem;
+  height: 0.5em;
   margin-bottom: calc(var(--pico-spacing) * 0.5);
   overflow: hidden;
   border: 0;
@@ -2269,16 +2269,16 @@ progress::-moz-progress-bar {
   position: absolute;
   bottom: 100%;
   left: 50%;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25em 0.5em;
   overflow: hidden;
-  transform: translate(-50%, -0.25rem);
+  transform: translate(-50%, -0.25em);
   border-radius: var(--pico-border-radius);
   background: var(--pico-tooltip-background-color);
   content: attr(data-tooltip);
   color: var(--pico-tooltip-color);
   font-style: normal;
   font-weight: var(--pico-font-weight);
-  font-size: 0.875rem;
+  font-size: 0.875em;
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2287,10 +2287,10 @@ progress::-moz-progress-bar {
 }
 [data-tooltip][data-placement=top]::after, [data-tooltip]::after {
   padding: 0;
-  transform: translate(-50%, 0rem);
-  border-top: 0.3rem solid;
-  border-right: 0.3rem solid transparent;
-  border-left: 0.3rem solid transparent;
+  transform: translate(-50%, 0em);
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
   border-radius: 0;
   background-color: transparent;
   content: "";
@@ -2299,82 +2299,82 @@ progress::-moz-progress-bar {
 [data-tooltip][data-placement=bottom]::before, [data-tooltip][data-placement=bottom]::after {
   top: 100%;
   bottom: auto;
-  transform: translate(-50%, 0.25rem);
+  transform: translate(-50%, 0.25em);
 }
 [data-tooltip][data-placement=bottom]:after {
-  transform: translate(-50%, -0.3rem);
-  border: 0.3rem solid transparent;
-  border-bottom: 0.3rem solid;
+  transform: translate(-50%, -0.3em);
+  border: 0.3em solid transparent;
+  border-bottom: 0.3em solid;
 }
 [data-tooltip][data-placement=left]::before, [data-tooltip][data-placement=left]::after {
   top: 50%;
   right: 100%;
   bottom: auto;
   left: auto;
-  transform: translate(-0.25rem, -50%);
+  transform: translate(-0.25em, -50%);
 }
 [data-tooltip][data-placement=left]:after {
-  transform: translate(0.3rem, -50%);
-  border: 0.3rem solid transparent;
-  border-left: 0.3rem solid;
+  transform: translate(0.3em, -50%);
+  border: 0.3em solid transparent;
+  border-left: 0.3em solid;
 }
 [data-tooltip][data-placement=right]::before, [data-tooltip][data-placement=right]::after {
   top: 50%;
   right: auto;
   bottom: auto;
   left: 100%;
-  transform: translate(0.25rem, -50%);
+  transform: translate(0.25em, -50%);
 }
 [data-tooltip][data-placement=right]:after {
-  transform: translate(-0.3rem, -50%);
-  border: 0.3rem solid transparent;
-  border-right: 0.3rem solid;
+  transform: translate(-0.3em, -50%);
+  border: 0.3em solid transparent;
+  border-right: 0.3em solid;
 }
 [data-tooltip]:focus::before, [data-tooltip]:focus::after, [data-tooltip]:hover::before, [data-tooltip]:hover::after {
   opacity: 1;
 }
 @media (hover: hover) and (pointer: fine) {
   [data-tooltip]:focus::before, [data-tooltip]:focus::after, [data-tooltip]:hover::before, [data-tooltip]:hover::after {
-    --pico-tooltip-slide-to: translate(-50%, -0.25rem);
-    transform: translate(-50%, 0.75rem);
+    --pico-tooltip-slide-to: translate(-50%, -0.25em);
+    transform: translate(-50%, 0.75em);
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
     animation-name: tooltip-slide;
     opacity: 0;
   }
   [data-tooltip]:focus::after, [data-tooltip]:hover::after {
-    --pico-tooltip-caret-slide-to: translate(-50%, 0rem);
-    transform: translate(-50%, -0.25rem);
+    --pico-tooltip-caret-slide-to: translate(-50%, 0em);
+    transform: translate(-50%, -0.25em);
     animation-name: tooltip-caret-slide;
   }
   [data-tooltip][data-placement=bottom]:focus::before, [data-tooltip][data-placement=bottom]:focus::after, [data-tooltip][data-placement=bottom]:hover::before, [data-tooltip][data-placement=bottom]:hover::after {
-    --pico-tooltip-slide-to: translate(-50%, 0.25rem);
-    transform: translate(-50%, -0.75rem);
+    --pico-tooltip-slide-to: translate(-50%, 0.25em);
+    transform: translate(-50%, -0.75em);
     animation-name: tooltip-slide;
   }
   [data-tooltip][data-placement=bottom]:focus::after, [data-tooltip][data-placement=bottom]:hover::after {
-    --pico-tooltip-caret-slide-to: translate(-50%, -0.3rem);
-    transform: translate(-50%, -0.5rem);
+    --pico-tooltip-caret-slide-to: translate(-50%, -0.3em);
+    transform: translate(-50%, -0.5em);
     animation-name: tooltip-caret-slide;
   }
   [data-tooltip][data-placement=left]:focus::before, [data-tooltip][data-placement=left]:focus::after, [data-tooltip][data-placement=left]:hover::before, [data-tooltip][data-placement=left]:hover::after {
-    --pico-tooltip-slide-to: translate(-0.25rem, -50%);
-    transform: translate(0.75rem, -50%);
+    --pico-tooltip-slide-to: translate(-0.25em, -50%);
+    transform: translate(0.75em, -50%);
     animation-name: tooltip-slide;
   }
   [data-tooltip][data-placement=left]:focus::after, [data-tooltip][data-placement=left]:hover::after {
-    --pico-tooltip-caret-slide-to: translate(0.3rem, -50%);
-    transform: translate(0.05rem, -50%);
+    --pico-tooltip-caret-slide-to: translate(0.3em, -50%);
+    transform: translate(0.05em, -50%);
     animation-name: tooltip-caret-slide;
   }
   [data-tooltip][data-placement=right]:focus::before, [data-tooltip][data-placement=right]:focus::after, [data-tooltip][data-placement=right]:hover::before, [data-tooltip][data-placement=right]:hover::after {
-    --pico-tooltip-slide-to: translate(0.25rem, -50%);
-    transform: translate(-0.75rem, -50%);
+    --pico-tooltip-slide-to: translate(0.25em, -50%);
+    transform: translate(-0.75em, -50%);
     animation-name: tooltip-slide;
   }
   [data-tooltip][data-placement=right]:focus::after, [data-tooltip][data-placement=right]:hover::after {
-    --pico-tooltip-caret-slide-to: translate(-0.3rem, -50%);
-    transform: translate(-0.05rem, -50%);
+    --pico-tooltip-caret-slide-to: translate(-0.3em, -50%);
+    transform: translate(-0.05em, -50%);
     animation-name: tooltip-caret-slide;
   }
 }

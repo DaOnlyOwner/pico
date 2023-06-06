@@ -106,7 +106,7 @@
 
     summary:not([role]) {
       // Override height
-      height: calc((1rem * var(#{$✨}line-height)) + (var(#{$✨}nav-link-spacing-vertical) * 2));
+      height: calc((1em * var(#{$✨}line-height)) + (var(#{$✨}nav-link-spacing-vertical) * 2));
       padding: calc(var(#{$✨}nav-link-spacing-vertical) - (var(#{$✨}border-width) * 2))
         var(#{$✨}nav-link-spacing-horizontal);
 

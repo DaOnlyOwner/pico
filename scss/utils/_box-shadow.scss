@@ -1,6 +1,6 @@
 @function shadow($color) {
-  $box-shadow-elevation: 1rem;
-  $box-shadow-blur-strengh: 6rem;
+  $box-shadow-elevation: 1em;
+  $box-shadow-blur-strengh: 6em;
   $box-shadow-opacity: 0.06;
 
   @return #{($box-shadow-elevation * 0.5 * 0.029)} #{($box-shadow-elevation * 0.029)} #{(
@@ -22,5 +22,5 @@
         $color,
         $box-shadow-opacity
       )},
-    0 0 0 0.0625rem #{rgba($color, ($box-shadow-opacity * 0.25))};
+    0 0 0 0.0625em #{rgba($color, ($box-shadow-opacity * 0.25))};
 }
